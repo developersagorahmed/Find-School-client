@@ -1,0 +1,127 @@
+[{
+    "college_image": "https://i.ibb.co/JK4HLnm/71863177-2478925559045488-3404121062252740608-n.jpg",
+    "college_name": "Serenity College",
+    "admission_dates": "December 1 - March 31",
+    "events": [
+      {
+        "event_name": "Freshman Orientation",
+        "date": "December 15",
+        "description": "A comprehensive orientation program to help new students settle into college life and understand academic expectations."
+      },
+      {
+        "event_name": "Spring Festival",
+        "date": "February 25",
+        "description": "A vibrant celebration of the arrival of spring, featuring cultural performances, food stalls, and games."
+      },
+      {
+        "event_name": "Annual Hackathon",
+        "date": "March 20",
+        "description": "A 24-hour coding challenge where students showcase their programming skills and innovative ideas."
+      }
+    ],
+    "research_history": "Serenity College is dedicated to fostering a research-oriented environment, and its faculty and students have contributed to significant advancements in fields like psychology, environmental studies, and artificial intelligence.",
+    "sports": [
+      {
+        "sport_name": "Basketball",
+        "description": "The college's basketball team is known for its teamwork and has consistently performed well in the regional championships."
+      },
+      {
+        "sport_name": "Badminton",
+        "description": "Serenity's badminton players have brought home several trophies and are praised for their agility and sportsmanship."
+      },
+      {
+        "sport_name": "Track and Field",
+        "description": "The college boasts talented athletes in track and field, with notable achievements in sprinting and long-distance events."
+      }
+    ],
+    "admission_process": "Aspiring students can apply online or download the application form from the college website. Admissions criteria include academic performance, letters of recommendation, and a personal interview.",
+    "events_details": "Freshman Orientation will include campus tours, academic advising sessions, and social mixers. Spring Festival will feature music performances, traditional dances, and a variety of culinary delights. Annual Hackathon will have teams competing to develop innovative solutions to real-world challenges.",
+    "research_works": "Serenity College has made significant contributions to research, such as a study on mental health interventions for adolescents, a novel approach to waste management, and advancements in machine learning algorithms.",
+    "sports_categories": "Serenity College offers a diverse range of sports categories, including team sports like basketball and soccer, racket sports like badminton and tennis, as well as individual events in track and field."
+  },
+  {
+    "college_image": "https://i.ibb.co/0J36spv/International-Stellar-Scholarships-in-the-UK.jpg",
+    "college_name": "Stellar University",
+    "admission_dates": "October 15 - January 15",
+    "events": [
+      {
+        "event_name": "Welcome Week",
+        "date": "October 20",
+        "description": "A week-long event to welcome new and returning students, featuring workshops, seminars, and social gatherings."
+      },
+      {
+        "event_name": "Cultural Diversity Day",
+        "date": "November 10",
+        "description": "A celebration of the university's multicultural community through performances, international cuisine, and interactive displays."
+      },
+      {
+        "event_name": "Innovation Symposium",
+        "date": "January 5",
+        "description": "An intellectual gathering where researchers and entrepreneurs share groundbreaking ideas and explore collaboration opportunities."
+      }
+    ],
+    "research_history": "Stellar University is renowned for its contributions to scientific research, particularly in astronomy, sustainable energy, and nanotechnology.",
+    "sports": [
+      {
+        "sport_name": "Soccer",
+        "description": "The university's soccer team has a strong fan base and has competed in national-level tournaments."
+      },
+      {
+        "sport_name": "Swimming",
+        "description": "Stellar's swimming team has produced top-notch athletes who have earned medals at collegiate swimming competitions."
+      },
+      {
+        "sport_name": "Equestrian",
+        "description": "The college boasts a state-of-the-art equestrian center, and its riders have excelled in equestrian events at regional shows."
+      }
+    ],
+    "admission_process": "Prospective students can apply online through the university's admission portal. Admissions are based on academic achievements, standardized test scores, and a personal statement.",
+    "events_details": "Welcome Week will include sessions on academic success, campus resources, and student clubs. Cultural Diversity Day will feature performances representing various cultures, a global cuisine fair, and educational exhibits. Innovation Symposium will have keynote presentations, panel discussions, and networking opportunities.",
+    "research_works": "Stellar University's research endeavors include a groundbreaking study on dark matter, novel approaches to harnessing solar energy, and developments in nanomedicine for cancer treatment.",
+    "sports_categories": "Stellar University offers a range of sports categories, including team sports like soccer and basketball, aquatic sports like swimming and water polo, and niche sports like equestrian and archery."
+  },
+  {
+    "college_image": "https://images.jdmagicbox.com/comp/kozhikode/dc/0495px495.x495.090811104806.m2j6dc/catalogue/horizon-institute-of-technologies-koyilandy-kozhikode-institutes-for-mobile-phone-servicing-3e554ry.jpg?temp=1",
+    "college_name": "Horizon Institute",
+    "admission_dates": "January 10 - April 30",
+    "events": [
+      {
+        "event_name": "New Year Gala",
+        "date": "January 20",
+        "description": "A glamorous event to usher in the new academic year, featuring a gala dinner, performances, and awards.",
+        "image":"https://i.ibb.co/G5Vh3VZ/firmbee-com-gcs-NOs-PEXfs-unsplash.jpg"
+      },
+      {
+        "event_name": "Cultural Week",
+        "date": "March 15",
+        "description": "A week dedicated to celebrating the cultural diversity of the college community through exhibitions, workshops, and talent shows.",
+        "image":"https://i.ibb.co/BstD2Wf/ashes-sitoula-xzz-gdk-H1-U-unsplash.jpg"
+      },
+      {
+        "event_name": "Research Expo",
+        "date": "April 25",
+        "description": "An exhibition showcasing the latest research projects from students and faculty across various disciplines.",
+        "image":"https://i.ibb.co/G5Vh3VZ/firmbee-com-gcs-NOs-PEXfs-unsplash.jpg"
+      }
+    ],
+    "research_history": "Horizon Institute has a strong tradition of research excellence, particularly in fields like renewable energy, artificial intelligence, and behavioral economics.",
+    "sports": [
+      {
+        "sport_name": "Tennis",
+        "description": "The college's tennis team has consistently ranked among the top in intercollegiate competitions and has produced several national champions."
+      },
+      {
+        "sport_name": "Table Tennis",
+        "description": "Horizon's table tennis players have competed at the highest levels and have earned accolades in regional tournaments."
+      },
+      {
+        "sport_name": "Volleyball",
+        "description": "The college's volleyball team is known for its strong defense and teamwork, making them formidable opponents in collegiate leagues."
+      }
+    ],
+    "admission_process": "Aspiring students can apply online or download the application form from the college's official website. Admissions are based on academic performance, extracurricular involvement, and a personal interview.",
+    "events_details": "New Year Gala will have a red carpet entrance, live music performances, and recognition of academic achievements. Cultural Week will feature traditional dances, art exhibitions, and interactive workshops. Research Expo will showcase poster presentations, demonstrations, and opportunities for attendees to engage with ongoing research.",
+    "research_works": "Horizon Institute's research contributions include advancements in renewable energy storage technologies, applications of machine learning in healthcare, and studies on consumer behavior in emerging markets.",
+    "sports_categories": "Horizon Institute provides diverse sports categories, including racket sports like tennis and table tennis, team sports like volleyball and basketball, and other activities such as swimming and athletics."
+  }
+]
