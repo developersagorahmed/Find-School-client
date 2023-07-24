@@ -5,6 +5,7 @@ import Graduation from "../Main/Graduation/Graduation";
 import Teachers from "../Teachers/Teachers";
 import Feedback2 from "../Feedback/Feedback2";
 import Research from "../../Research/Research";
+import Classes from "../Clasees/Classes";
 
 const App = () => {
 	return (
@@ -27,6 +28,7 @@ const App = () => {
 			<Graduation></Graduation>
 			<Research></Research>
 			<Teachers></Teachers>
+			<Classes></Classes>
 			<Feedback2></Feedback2>
 		</>
 	);
