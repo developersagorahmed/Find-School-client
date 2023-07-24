@@ -21,7 +21,7 @@ const Feedback = () => {
 			collage: data?.college_name,
 			collageImage: data?.college_image,
 		};
-		fetch("http://localhost:5000/feedback", {
+		fetch("https://server-school.vercel.app/feedback", {
 			method: "POST",
 			headers: {
 				"content-type": "application/json",

@@ -8,7 +8,7 @@ const MyCollage = () => {
 	const { email } = user;
 
 	useEffect(() => {
-		fetch(`http://localhost:5000/MyCollage/${email}`)
+		fetch(`https://server-school.vercel.app/MyCollage/${email}`)
 			.then((res) => res.json())
 			.then((data) => setCollage(data));
 	}, []);

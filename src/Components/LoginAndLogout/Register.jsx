@@ -33,7 +33,7 @@ const Register = () => {
 			registerUser(email, password)
 				.then((result) => {
 					const currentUser = result.user;
-					fetch("http://localhost:5000/info", {
+					fetch("https://server-school.vercel.app/info", {
 						method: "POST",
 						headers: {
 							"content-type": "application/json",

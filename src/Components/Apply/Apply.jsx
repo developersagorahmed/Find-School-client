@@ -35,7 +35,7 @@ const Apply = () => {
 			img,
 		};
 
-		fetch("http://localhost:5000/apply", {
+		fetch("https://server-school.vercel.app/apply", {
 			method: "POST",
 			headers: {
 				"content-type": "application/json",

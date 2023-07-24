@@ -4,7 +4,7 @@ import CollageCard from "../Collages/CollageCard";
 const Collage = () => {
 	const [collages, setCollages] = useState([]);
 	useEffect(() => {
-		fetch("http://localhost:5000/allClass")
+		fetch("https://server-school.vercel.app/allClass")
 			.then((res) => res.json())
 			.then((data) => setCollages(data));
 	}, []);

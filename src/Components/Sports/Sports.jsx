@@ -4,7 +4,7 @@ import Scart from "./Scart";
 const Sports = ({ data }) => {
 	// const [data, setData] = useState([]);
 	// useEffect(() => {
-	// 	fetch("http://localhost:5000/allClass")
+	// 	fetch("https://server-school.vercel.app/allClass")
 	// 		.then((res) => res.json())
 	// 		.then((data) => setData(data));
 	// }, []);

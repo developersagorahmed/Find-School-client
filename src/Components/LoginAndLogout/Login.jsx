@@ -37,7 +37,7 @@ const Login = () => {
 					photo: user?.photoURL,
 					name: user?.displayName,
 				};
-				fetch("http://localhost:5000/info", {
+				fetch("https://server-school.vercel.app/info", {
 					method: "POST",
 					headers: {
 						"content-type": "application/json",

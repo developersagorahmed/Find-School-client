@@ -38,13 +38,13 @@ export const router = createBrowserRouter([
 					</PrivateRoute>
 				),
 				loader: ({ params }) =>
-					fetch(`http://localhost:5000/details/${params.id}`),
+					fetch(`https://server-school.vercel.app/details/${params.id}`),
 			},
 			{
 				path: "apply/:id",
 				element: <Apply></Apply>,
 				loader: ({ params }) =>
-					fetch(`http://localhost:5000/details/${params.id}`),
+					fetch(`https://server-school.vercel.app/details/${params.id}`),
 			},
 			{
 				path: "admission",
@@ -62,13 +62,13 @@ export const router = createBrowserRouter([
 				path: "feedback/:id",
 				element: <Feedback></Feedback>,
 				loader: ({ params }) =>
-					fetch(`http://localhost:5000/details/${params.id}`),
+					fetch(`https://server-school.vercel.app/details/${params.id}`),
 			},
 			{
 				path: "profile/:id",
 				element: <Profile></Profile>,
 				loader: ({ params }) =>
-					fetch(`http://localhost:5000/profile/${params.id}`),
+					fetch(`https://server-school.vercel.app/profile/${params.id}`),
 			},
 		],
 	},

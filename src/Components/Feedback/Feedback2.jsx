@@ -6,7 +6,7 @@ import "@smastrom/react-rating/style.css";
 const Feedback2 = () => {
 	const [feedback, setFeedback] = useState([]);
 	useEffect(() => {
-		fetch("http://localhost:5000/feedback2")
+		fetch("https://server-school.vercel.app/feedback2")
 			.then((res) => res.json())
 			.then((data) => setFeedback(data));
 	}, []);
