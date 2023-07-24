@@ -7,7 +7,6 @@ import { AuthContext } from "../../Provider/AuthProvider";
 
 const Navbar = () => {
 	const { user, logOut } = useContext(AuthContext);
-	
 
 	const handleLogOut = () => {
 		logOut()
@@ -50,7 +49,7 @@ const Navbar = () => {
 							<Link to="/admission">Admission</Link>
 						</li>
 						<li>
-							<Link to="/My Collage ">My Collage</Link>
+							<Link to="/MyCollage">My Collage</Link>
 						</li>
 					</ul>
 				</div>
@@ -72,7 +71,7 @@ const Navbar = () => {
 						<Link to="./">Home</Link>
 					</li>
 					<li>
-						<Link to="/collages">Colleges</Link>
+						<Link to="/collage">Colleges</Link>
 					</li>
 					<li>
 						<Link to="/admission">Admission</Link>
@@ -83,14 +82,16 @@ const Navbar = () => {
 				<div className="navbar-end">
 					<div className="mr-6 hover:bg-[#353535] hover:text-white hover:px-5 px-5 hover:py-2 rounded-lg ">
 						<li className="list-none duration-500 font-bold">
-							<Link to="/My Collage ">My Collage</Link>
+							<Link to={`/MyCollage/${user?.email}`}>My Collage</Link>
 						</li>
 					</div>
 
 					<div className="avatar hover:text-white mr-5">
 						<div className="w-10 mt-2 hover:ring-white rounded-full ring ring-[#353535] ring-offset-base-100">
 							{user?.photoURL ? (
-								<img src={user.photoURL} title={user.displayName} alt="" />
+								<Link to={`/profile/${user?.email}`}>
+									<img src={user.photoURL} title={user.displayName} alt="" />
+								</Link>
 							) : (
 								<FaUser className="w-10 mt-1 h-9"></FaUser>
 							)}

@@ -5,28 +5,23 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { Link } from "react-router-dom";
-const Scart = ({ data }) => {
+const RCard = ({ data }) => {
+	console.log(data);
 	return (
 		<Card sx={{ maxWidth: 345 }}>
-			<CardMedia
-				component="img"
-				alt="green iguana"
-				height="140"
-				className="h-[250px]"
-				image={data?.img}
-			/>
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="div">
-					{data?.sport_name}
+					{data?.authors}
 				</Typography>
 				<Typography variant="body2" color="text.secondary">
-					{data?.description}
+					{data?.title}
 				</Typography>
 			</CardContent>
-			<CardActions></CardActions>
+			<CardActions>
+				<Button size="small">Website Link</Button>
+			</CardActions>
 		</Card>
 	);
 };
 
-export default Scart;
+export default RCard;

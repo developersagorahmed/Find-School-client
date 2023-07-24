@@ -8,7 +8,7 @@ const Sports = ({ data }) => {
 	// 		.then((res) => res.json())
 	// 		.then((data) => setData(data));
 	// }, []);
-	console.log(data);
+
 	return (
 		<div>
 			<h2 className="mt-6  text-center text-3xl font-bold underline mb-10 text-[#474745]">

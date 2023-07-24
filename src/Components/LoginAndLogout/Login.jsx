@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-import  { FaGoogle, FaGithub } from "react-icons/fa";
-import  { AuthContext } from "../Provider/AuthProvider";
+import { FaGoogle, FaGithub } from "react-icons/fa";
+import { AuthContext } from "../Provider/AuthProvider";
 
 const Login = () => {
 	const [error, setError] = useState("");
@@ -31,6 +31,23 @@ const Login = () => {
 		handleGoogleSignIn()
 			.then((result) => {
 				const user = result.user;
+				const newData = {
+					email: user?.email,
+					number: user?.phoneNumber,
+					photo: user?.photoURL,
+					name: user?.displayName,
+				};
+				fetch("http://localhost:5000/info", {
+					method: "POST",
+					headers: {
+						"content-type": "application/json",
+					},
+					body: JSON.stringify(newData),
+				})
+					.then((res) => res.json())
+					.then((data) => {
+						navigate("/");
+					});
 				navigate(from);
 			})
 			.catch((error) => setError(error.message));

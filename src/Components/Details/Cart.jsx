@@ -5,7 +5,6 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, CardActions } from "@mui/material";
 const Cart = ({ data }) => {
-	console.log(data.date);
 	return (
 		<Card sx={{ maxWidth: 345 }}>
 			<CardActionArea>

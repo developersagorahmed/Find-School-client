@@ -7,6 +7,7 @@ import { AuthContext } from "../Provider/AuthProvider";
 const Register = () => {
 	const [error, setError] = useState("");
 	const [email, setEmail] = useState("");
+	const [number, setNumber] = useState("");
 	const [password, setPassword] = useState("");
 	const [photo, setPhoto] = useState("");
 	const [name, setName] = useState("");
@@ -16,6 +17,12 @@ const Register = () => {
 	// const from = location.state?.from?.pathname || "/";
 
 	const handleRegister = (event) => {
+		const newData = {
+			email,
+			number,
+			photo,
+			name,
+		};
 		event.preventDefault();
 		if (password.length < 6) {
 			setError("Password mush be 6 characters");
@@ -26,6 +33,17 @@ const Register = () => {
 			registerUser(email, password)
 				.then((result) => {
 					const currentUser = result.user;
+					fetch("http://localhost:5000/info", {
+						method: "POST",
+						headers: {
+							"content-type": "application/json",
+						},
+						body: JSON.stringify(newData),
+					})
+						.then((res) => res.json())
+						.then((data) => {
+							navigate("/");
+						});
 					updateProfile(currentUser, { displayName: name, photoURL: photo });
 					setError("");
 					event.target.reset();
@@ -63,6 +81,16 @@ const Register = () => {
 								name="email"
 								type="email"
 								placeholder="email"
+								className="input input-bordered rounded-md"
+							/>
+						</div>
+						<div className="form-control">
+							Phone Number
+							<input
+								onChange={(e) => setNumber(e.target.value)}
+								name="number"
+								type="number"
+								placeholder="Phone Number"
 								className="input input-bordered rounded-md"
 							/>
 						</div>
